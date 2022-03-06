@@ -1,8 +1,8 @@
 import "./App.scss";
 
-import { Button } from "antd";
+import { Button, Col, Row } from "antd";
 
-import { ReactComponent as ReactLogo } from "./components/logo.svg";
+import { ReactComponent as Logo } from "./components/logo.svg";
 import { ReactComponent as Sticker } from "./components/actionsSticker.svg";
 import { ReactComponent as LightningIcon } from "./components/lightningIcon.svg";
 
@@ -12,7 +12,7 @@ function App() {
       <div className="section section-header">
         <div className="section_wrapper">
           <header className="header">
-            <ReactLogo className="logo1" />
+            <Logo className="logo1" />
             <ul className="header__menu">
               <li className="header__item">Акции</li>
               <li className="header__item">Что включено</li>
@@ -27,6 +27,37 @@ function App() {
           </header>
         </div>
       </div>
+
+      <section className="section hero">
+        <div className="section_wrapper">
+          {/* <div className="discoverer">
+            <div className="discoverer__title">КОВОРКИНГ</div>
+            <Logo />
+            <div className="discoverer__subtitle"></div>
+          </div>
+        </div> */}
+          <Row>
+            <Col span={12} className="discoverer">
+              <div className="discoverer__title">КОВОРКИНГ</div>
+              <Logo
+                style={{ width: "395px", height: "213px", marginBottom: 26 }}
+              />
+              <div className="discoverer__subtitle-wrapper">
+                <div className="discoverer__subtitle">это</div>
+                <div className="discoverer__subtitle-divider"></div>
+                <div className="discoverer__subtitle">
+                  современное рабочее место «под ключ»: от канцелярских
+                  принадлежностей и оргтехники до собственной кухни и
+                  переговорной и никакой бытовухи!
+                </div>
+              </div>
+            </Col>
+            <Col span={12} className="hero-cabinet">
+              <div className="cabinet"></div>
+            </Col>
+          </Row>
+        </div>
+      </section>
       <section className="section actions">
         <div className="section_wrapper">
           <div className="section-title actions__title">

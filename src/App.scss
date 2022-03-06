@@ -43,7 +43,7 @@
 .site-layout-content {
   min-height: 280px;
   padding: 24px;
-  background: #fff;
+  background: #e5e5e5;
 }
 #components-layout-demo-top .logo {
   float: left;
@@ -60,7 +60,7 @@
 .ant-layout-header {
   display: flex;
   align-items: center;
-  background-color: white;
+  background-color: transparent;
 }
 .section {
   display: flex;
@@ -215,4 +215,65 @@
 }
 .action-button {
   align-self: end;
+}
+
+// hero
+.hero {
+  max-height: 526px;
+}
+.discoverer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px 0;
+}
+.discoverer__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 35px;
+  padding: 10px 48px;
+  background-color: black;
+  color: white;
+  margin-bottom: 26px;
+}
+.discoverer__subtitle-wrapper {
+  display: flex;
+}
+.discoverer__subtitle {
+  position: relative;
+  text-align: start;
+  &:first-child {
+    margin-right: 56px;
+    &::after {
+      position: absolute;
+      content: "";
+      height: 1px;
+      width: 32px;
+      background-color: black;
+      top: 14px;
+      right: -12px;
+      transform: translateX(100%);
+    }
+  }
+  &:last-child {
+    width: 380px;
+  }
+}
+
+.hero-cabinet {
+  position: relative;
+  background-image: url("./components/hero_bg.png");
+  background-size: cover;
+}
+
+.cabinet {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  width: 335px;
+  height: 220px;
+  background-color: rgba(255, 255, 255, 0.96);
 }
