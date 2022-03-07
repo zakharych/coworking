@@ -5,6 +5,7 @@ import { Button, Col, Row } from "antd";
 import { ReactComponent as Logo } from "./components/logo.svg";
 import { ReactComponent as Sticker } from "./components/actionsSticker.svg";
 import { ReactComponent as LightningIcon } from "./components/lightningIcon.svg";
+import { ReactComponent as CashIcon } from "./components/CashIcon.svg";
 
 function App() {
   return (
@@ -95,6 +96,30 @@ function App() {
             </li>
             <li className="action-card"></li>
           </ul>
+        </div>
+      </section>
+      <section className="section benefit">
+        <div className="section_wrapper">
+          <div className="section-title benefit-section__title">
+            Коворкинг — <span className="text-accent">это выгодно</span>
+          </div>
+          <Row gutter={[60, 54]}>
+            {new Array(6).fill(null).map((_, index) => {
+              return (
+                <Col className="benefit__item" span={8}>
+                  <div className="benefit__title-wrapper">
+                    <CashIcon />
+                    <div className="benefit__title">Выгода</div>
+                  </div>
+                  <div className="benefit__description">
+                    Снимая рабочее место в коворкинге, вы экономите на оплате
+                    электричества, коммунальных услугах, канцелярии, оргтехнике,
+                    уборке, кофе и др.
+                  </div>
+                </Col>
+              );
+            })}
+          </Row>
         </div>
       </section>
     </div>
