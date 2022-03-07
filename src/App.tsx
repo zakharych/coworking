@@ -53,7 +53,15 @@ function App() {
               </div>
             </Col>
             <Col span={12} className="hero-cabinet">
-              <div className="cabinet"></div>
+              <div className="cabinet">
+                <div className="cabinet__title">
+                  Создайте{" "}
+                  <span className="text-accent-bold">личный кабинет</span>,
+                  чтобы начать пользоваться коворкингом!
+                </div>
+                <button className="Button Button--light">Регистрация</button>
+                <button className="text-link">Как это работает?→</button>
+              </div>
             </Col>
           </Row>
         </div>
