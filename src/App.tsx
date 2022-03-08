@@ -6,6 +6,7 @@ import { ReactComponent as Logo } from "./components/logo.svg";
 import { ReactComponent as Sticker } from "./components/actionsSticker.svg";
 import { ReactComponent as LightningIcon } from "./components/lightningIcon.svg";
 import { ReactComponent as CashIcon } from "./components/CashIcon.svg";
+import CompareSection from "./components/CompareSection";
 
 function App() {
   return (
@@ -31,12 +32,6 @@ function App() {
 
       <section className="section hero">
         <div className="section_wrapper">
-          {/* <div className="discoverer">
-            <div className="discoverer__title">КОВОРКИНГ</div>
-            <Logo />
-            <div className="discoverer__subtitle"></div>
-          </div>
-        </div> */}
           <Row>
             <Col span={12} className="discoverer">
               <div className="discoverer__title">КОВОРКИНГ</div>
@@ -122,6 +117,7 @@ function App() {
           </Row>
         </div>
       </section>
+      <CompareSection />
     </div>
   );
 }

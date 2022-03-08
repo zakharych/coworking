@@ -1,0 +1,115 @@
+.compare-section {
+  background-color: #e5e5e5;
+  padding: 95px 0;
+}
+
+.compare-section__title {
+  &:first-child {
+    line-height: 35px;
+  }
+}
+.compare-diagram-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 66px;
+}
+.compare-subtitle--height {
+  margin-bottom: 50px;
+}
+.compare-diagram-pic {
+  margin-bottom: 65px;
+}
+.compare-subtitle {
+  font-size: 18px;
+  text-align: start;
+  margin-bottom: 10px;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+.compare-subtitle--height {
+  margin-top: -7px;
+  margin-bottom: 89px;
+}
+.diagram-compare {
+  margin-bottom: 64px;
+}
+.compare-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  //   grid-template-rows: 0.2fr 2.6fr 0.2fr;
+  border: 2px solid #be763c;
+  margin-bottom: 105px;
+}
+.compare-table-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid #c0c0c0;
+
+  &:nth-child(3n) {
+    border-left: 2px solid #be763c;
+  }
+
+  &:nth-child(3n + 1) {
+    border-right: 2px solid #c0c0c0;
+  }
+  &:nth-last-child(-n + 3) {
+    border-bottom: none;
+  }
+}
+
+.compare-section-text {
+  margin-bottom: 12px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.compare-cards-title {
+  margin-bottom: 109px;
+}
+.compare-cards {
+  margin-bottom: 40px;
+}
+
+.compare-card {
+  padding: 38px;
+  background-color: #ffffff;
+}
+.compare-card__header-title {
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+.compare-card__title {
+  margin-bottom: 25px;
+}
+.compare-card__header-title {
+  text-align: center;
+}
+.compare-card-pic {
+  display: block;
+  width: 463px;
+  height: 268px;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+.compare-card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.compare-card__subtitle {
+  margin-bottom: 20px;
+}
+.negation-item {
+  display: flex;
+  margin-bottom: 19px;
+}
+.negation-icon {
+  margin-right: 10px;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
