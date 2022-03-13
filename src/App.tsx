@@ -10,6 +10,7 @@ import CompareSection from "./components/CompareSection";
 import RentBenefits from "./components/RentBenefits";
 import { ArrowUpOutlined } from "@ant-design/icons";
 import Tariffs from "./components/Tariffs";
+import HowUse from "./components/HowUse";
 
 function App() {
   return (
@@ -123,6 +124,7 @@ function App() {
       <CompareSection />
       <RentBenefits />
       <Tariffs />
+      <HowUse />
       <BackTop>
         <ArrowUpOutlined
           style={{
