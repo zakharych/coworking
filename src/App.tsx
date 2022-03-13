@@ -1,12 +1,14 @@
 import "./App.scss";
 
-import { Button, Col, Row } from "antd";
+import { BackTop, Button, Col, Row } from "antd";
 
 import { ReactComponent as Logo } from "./components/logo.svg";
 import { ReactComponent as Sticker } from "./components/actionsSticker.svg";
 import { ReactComponent as LightningIcon } from "./components/lightningIcon.svg";
 import { ReactComponent as CashIcon } from "./components/CashIcon.svg";
 import CompareSection from "./components/CompareSection";
+import RentBenefits from "./components/RentBenefits";
+import { ArrowUpOutlined } from "@ant-design/icons";
 
 function App() {
   return (
@@ -118,6 +120,16 @@ function App() {
         </div>
       </section>
       <CompareSection />
+      <RentBenefits />
+      <BackTop>
+        <ArrowUpOutlined
+          style={{
+            fontSize: 32,
+            color: "#ffffff",
+            textShadow: "3px 5px 2px #474747",
+          }}
+        />
+      </BackTop>
     </div>
   );
 }

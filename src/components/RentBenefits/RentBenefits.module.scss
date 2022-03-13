@@ -1,0 +1,24 @@
+.rent-benefits-section {
+  background-color: #1d1d1b;
+  padding: 81px 0;
+  color: #ffffff;
+}
+// .rent-benefits-section-wrapper {
+//   display: flex;
+//   flex-direction: column;
+// }
+.rent-benefits-section__title {
+  text-align: start;
+  margin-bottom: 66px;
+}
+.benefits-item {
+  display: flex;
+  align-items: center;
+  width: 352px;
+  height: 100%;
+}
+.benefits-item__icon {
+  display: flex;
+  width: 25%;
+  margin-right: 32px;
+}
