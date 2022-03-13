@@ -128,7 +128,7 @@ function App() {
         <Tariffs />
         <HowUse />
         <Map
-          defaultState={{ center: [51.509373, 46.152195], zoom: 12 }}
+          defaultState={{ center: [51.499032, 46.140709], zoom: 13 }}
           width="100%"
           height={644}
         >
