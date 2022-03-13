@@ -1,8 +1,12 @@
 .compare-section {
   background-color: #e5e5e5;
-  padding: 95px 0;
+  padding: 82px 0;
 }
-
+.compare-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .compare-section__title {
   &:first-child {
     line-height: 35px;
@@ -20,7 +24,8 @@
 .compare-diagram-pic {
   margin-bottom: 65px;
 }
-.compare-subtitle {
+.compare-subtitle,
+.first-promo-subtitle {
   font-size: 18px;
   text-align: start;
   margin-bottom: 10px;
@@ -67,16 +72,23 @@
     margin-bottom: 0;
   }
 }
+.compare-cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 108px;
+}
 .compare-cards-title {
   margin-bottom: 109px;
 }
 .compare-cards {
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 }
 
 .compare-card {
   padding: 38px;
   background-color: #ffffff;
+  padding-bottom: 53px;
 }
 .compare-card__header-title {
   font-weight: bold;
@@ -112,4 +124,38 @@
   margin-right: 10px;
   flex-shrink: 0;
   margin-top: 4px;
+}
+.first-promo-title-wrapper {
+  align-self: flex-start;
+  margin-bottom: 30px;
+}
+.first-promo-title {
+  margin-bottom: 7px;
+}
+.first-promo__pic {
+  overflow: hidden;
+}
+.first-promo__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.first-promo__text-content {
+  background: #1d1d1b;
+  padding: 50px;
+  height: 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.first-promo__text-content-title {
+  text-align: start;
+  line-height: 46px;
+  margin-bottom: 34px;
+}
+
+.first-promo-subtitle--addition {
+  margin-top: auto;
 }
