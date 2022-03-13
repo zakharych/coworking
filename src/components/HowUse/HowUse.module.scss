@@ -15,6 +15,9 @@
   padding-bottom: 29px;
   margin-bottom: 25px;
   border-bottom: 2px solid #c0c0c0;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 .rules-item__count {
   font-weight: 700;
@@ -35,7 +38,7 @@
   color: #c0c0c0;
 }
 .how-use-description {
-  padding-right: 80px;
+  padding-right: 112px;
 }
 .how-use-section__tip {
   display: flex;
@@ -53,4 +56,8 @@
 }
 .how-use-section__tip--bottom {
   margin-top: auto;
+}
+.how-use-section__tip-subtitle {
+  display: block;
+  margin-bottom: 18px;
 }

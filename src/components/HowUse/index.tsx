@@ -28,8 +28,12 @@ export default function HowUse() {
                 </div>
                 <div className={s["how-use-section__tip-text"]}>
                   Если вы впервые, администратор выдаст промокод на первый
-                  бесплатный день, по которому вы сможете провести первый день
-                  абсолютно бесплатно
+                  бесплатный день, по которому вы сможете провести{" "}
+                  <span className="text-accent-uppercase">
+                    <span className="text-accent-bold">
+                      первый день абсолютно бесплатно
+                    </span>
+                  </span>
                 </div>
               </div>
               <div
@@ -42,7 +46,12 @@ export default function HowUse() {
                   <span className="text-accent">?</span>
                 </div>
                 <div className={s["how-use-section__tip-text"]}>
-                  <span className="text-accent-bold">
+                  <span
+                    className={classNames(
+                      "text-accent-bold",
+                      s["how-use-section__tip-subtitle"]
+                    )}
+                  >
                     У меня абонемент на 7 дней. Значит ли это, что мне надо
                     ходить каждый день в течение недели?
                   </span>
