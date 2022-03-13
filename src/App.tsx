@@ -12,6 +12,7 @@ import RentBenefits from "./components/RentBenefits";
 import { ArrowUpOutlined } from "@ant-design/icons";
 import Tariffs from "./components/Tariffs";
 import HowUse from "./components/HowUse";
+import GallerySlider from "./components/GallerySlider";
 
 function App() {
   return (
@@ -127,6 +128,7 @@ function App() {
         <RentBenefits />
         <Tariffs />
         <HowUse />
+        <GallerySlider />
         <Map
           defaultState={{ center: [51.499032, 46.140709], zoom: 13 }}
           width="100%"
