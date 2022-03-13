@@ -1,0 +1,103 @@
+.tariffs-section {
+  padding: 86px 0;
+}
+.tariffs-section-title {
+  line-height: 46px;
+  margin-bottom: 50px;
+}
+.tariffs-section-wrapper {
+}
+.coworking {
+  margin-bottom: 72px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.slide {
+  height: 437px;
+  & img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+.coworking__name {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #be763c;
+  margin-bottom: 23px;
+  &--dark {
+    color: #464f3b;
+  }
+}
+.coworking__carousel {
+  width: 340px;
+}
+.coworking__block {
+  display: flex;
+  align-items: stretch;
+}
+.coworking__tariffs {
+  position: relative;
+  background: #ffffff;
+  border: 2px solid #be763c;
+  border-left: none;
+  flex-grow: 1;
+  display: flex;
+}
+
+.tariff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 19px 10px;
+  padding-bottom: 25px;
+  width: 25%;
+  height: 433px;
+  border-right: 1px solid #be763c;
+  &:last-child {
+    border: none;
+  }
+}
+.tariff__text-wrapper {
+  margin-left: 20px;
+  flex-grow: 1;
+}
+.tariff__name {
+  font-weight: 700;
+  font-size: 18px;
+  color: #303030;
+  margin-bottom: 11px;
+}
+.tariff__title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #c0c0c0;
+  text-align: start;
+}
+.tariff__price-wrapper {
+  margin-bottom: 44px;
+  position: relative;
+}
+.tariff__price {
+  font-weight: 700;
+  font-size: 24px;
+  color: #303030;
+}
+.tariff__price-per-day {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 18px;
+  top: 30px;
+  color: #c0c0c0;
+}
+
+.promo-sign {
+  position: absolute;
+  top: 15px;
+  right: -10px;
+  transform: translate(50%, -50%);
+}

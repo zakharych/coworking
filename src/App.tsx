@@ -9,6 +9,7 @@ import { ReactComponent as CashIcon } from "./components/CashIcon.svg";
 import CompareSection from "./components/CompareSection";
 import RentBenefits from "./components/RentBenefits";
 import { ArrowUpOutlined } from "@ant-design/icons";
+import Tariffs from "./components/Tariffs";
 
 function App() {
   return (
@@ -121,6 +122,7 @@ function App() {
       </section>
       <CompareSection />
       <RentBenefits />
+      <Tariffs />
       <BackTop>
         <ArrowUpOutlined
           style={{
