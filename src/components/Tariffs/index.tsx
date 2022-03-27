@@ -9,7 +9,10 @@ import { ReactComponent as PromoSign } from "./images/propmoSign.svg";
 
 export default function Tariffs() {
   return (
-    <Section className={classNames(s["compare-section"], s["tariffs-section"])}>
+    <Section
+      id="prices"
+      className={classNames(s["compare-section"], s["tariffs-section"])}
+    >
       <div
         className={classNames("section_wrapper", s["tariffs-section-wrapper"])}
       >

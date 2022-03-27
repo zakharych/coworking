@@ -6,7 +6,7 @@ import s from "./HowUse.module.scss";
 
 export default function HowUse() {
   return (
-    <Section className={classNames(s["how-use-section"])}>
+    <Section id="how-use" className={classNames(s["how-use-section"])}>
       <div
         className={classNames("section_wrapper", s["how-use-section-wrapper"])}
       >

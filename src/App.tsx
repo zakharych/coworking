@@ -13,6 +13,7 @@ import { ArrowUpOutlined } from "@ant-design/icons";
 import Tariffs from "./components/Tariffs";
 import HowUse from "./components/HowUse";
 import GallerySlider from "./components/GallerySlider";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -69,7 +70,7 @@ function App() {
             </Row>
           </div>
         </section>
-        <section className="section actions">
+        <section className="section actions" id="actions">
           <div className="section_wrapper">
             <div className="section-title actions__title">
               Действующие <span className="text-accent">акции</span>
@@ -143,6 +144,7 @@ function App() {
           />
           <ZoomControl options={{ float: "right" }} />
         </Map>
+        <Footer />
         <BackTop>
           <ArrowUpOutlined
             style={{

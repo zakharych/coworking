@@ -1,0 +1,42 @@
+.footer-section {
+  background-color: #1d1d1b;
+  color: #ffffff;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 45px 0;
+}
+
+.logo {
+  fill: #ffffff;
+  margin-right: 80px;
+}
+
+.footer__menu {
+  margin: 0;
+  display: flex;
+  flex-grow: 1;
+}
+
+.footer__menu-item {
+  margin-right: 40px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.footer__menu-link {
+  color: inherit;
+  &:hover {
+    color: #ffffff;
+    opacity: 0.7;
+  }
+}
+.policy {
+  color: #ffffff;
+  &:hover {
+    color: #ffffff;
+    opacity: 0.7;
+  }
+}

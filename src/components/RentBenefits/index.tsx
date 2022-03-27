@@ -6,7 +6,7 @@ import { ReactComponent as ParkingIcon } from "./images/ParcingIcon.svg";
 
 export default function RentBenefits() {
   return (
-    <Section className={s["rent-benefits-section"]}>
+    <Section id="benefits" className={s["rent-benefits-section"]}>
       <div
         className={classNames(
           "section_wrapper",
